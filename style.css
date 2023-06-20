@@ -1,0 +1,55 @@
+header {
+
+    text-align: center;
+    color: rgb(151, 59, 6);
+    background-color: rgb(245, 216, 121);
+    padding: 20px;
+}
+
+div {
+
+text-align: center;
+padding: 100px;
+
+
+}
+
+footer{
+
+text-align: center;
+
+}
+
+
+button{
+
+height: 40px;
+width: 120px;
+color: rgb(97, 38, 5);
+background-color: rgb(245, 216, 121);
+border-radius: 50px;
+
+}
+
+
+
+@media (max-width: 480px) { /* Media query para telas menores de 480 pixels */
+
+
+    header {
+        font-size: 20px; /* Ajuste adicional para telas menores */
+    }
+
+    div {
+        font-size: 16px; /* Ajuste adicional para telas menores */
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px; /* Ajuste adicional para telas menores */
+    }
+}
+
